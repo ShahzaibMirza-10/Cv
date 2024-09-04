@@ -10,17 +10,14 @@
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  
 }
+
 .container{
   width: 98.75vw;
   background-color: rgb(214, 214, 214);
   display: flex;
-  /* flex-direction: column; */
-  /* position: relative; */
-
-
 }
+
 #side-bar{
   background-color: rgb(44 121 193);
   height: 100vh;
@@ -39,7 +36,6 @@ body{
   display: flex;
   height: 180px;
   width: 150px;
-  /* z-index: 111; */
   position: absolute;
   border-radius: 50px 20px 50px 20px;
   margin: 60px 70px;
@@ -51,8 +47,8 @@ body{
                    8px 8px 10px  rgb(53, 53, 53),
                    5px 5px 10px rgb(98, 0, 255),
                    3px 3px 5px red;
-  
 }
+
 #batch{
   width: 95px;
   height: 20px;
@@ -67,7 +63,6 @@ body{
   font-family:'Ubuntu', sans-serif ;
   color: rgb(44 121 193);
   padding: 2px 8px;
-  /* text-align: center; */
   align-items: center;
   justify-content: center;
   box-shadow:inset 0px 0px 6px rgb(36, 35, 35),
@@ -100,7 +95,6 @@ body{
   width: 150px;
   height: 5px;
   background-color: rgb(44, 53, 71);
-  /* margin-top: 310px; */
   margin-left: 75px;
   border-radius: 80px;
 }
@@ -206,7 +200,6 @@ body{
   margin-left: 400px;
   background-color: rgb(214, 214, 214);
   display: flex;
-  /* position: relative; */
   flex-direction: column;
 
 }
@@ -214,12 +207,10 @@ body{
 #fn{
   font-size: 120px;
   font-family: 'Anton', sans-serif;
-  /* display: flex; */
   color: rgb(44 121 193);
   line-height: 0;
    margin-top: -480px;
    position: absolute;
-  /* margin-left: 100px;  */
 
 }
 
@@ -367,11 +358,6 @@ body{
   display: flex;
   flex-direction: column;
   margin-top: -300px;
-  /* height: 100vh; */
-  /* width: 100vw; */
-  /* margin-top: 700px; */
-  /* background-color: rgb(214, 214, 214); */
-  
 }
 
 
@@ -385,7 +371,6 @@ body{
   color: rgb(214, 214, 214);
   border-radius: 30px 10px 30px 10px;
   background-color: rgba(214, 214, 214, 0.3);
-  /* background-color: rgba(44, 121, 193, 0.3); */
   box-shadow: inset 5px 5px 25px rgba(255, 255, 255, 0.45),
                     5px 5px 8px   grey;
 }
@@ -426,14 +411,11 @@ body{
 
 #line{
   width: 900px;
-  /* display: flex; */
-  /* flex-direction: column; */
   height: 2px;
   background-color: rgba(160, 160, 160, 0.8);
   box-shadow: 1px 1px 3px rgb(65, 65, 65);
   margin-top: 250px;
 }
-
 
 
 
@@ -457,13 +439,9 @@ body{
   padding: 20px 40px;
   margin-top: 200px;
   margin-left: -490px;
-  /* position: absolute; */
-  /* display: flex; */
-  /* flex-direction: column; */
   color: rgb(214, 214, 214);
   border-radius: 50px 20px 50px 20px;
   background-color: rgba(214, 214, 214, 0.3);
-  /* background-color: rgba(44, 121, 193, 0.3); */
   box-shadow: inset 5px 5px 25px rgba(255, 255, 255, 0.45),
   5px 5px 8px   grey;
 }
@@ -509,7 +487,6 @@ body{
 }
 
 #box:hover{
-  /* border: 2px solid rgb(44, 121, 193); */
   background-color: transparent;
   color: rgb(44, 121, 193);
   box-shadow: inset 4px 4px 7px rgba(53, 53, 53, 0.4),
