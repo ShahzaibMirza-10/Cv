@@ -1,15 +1,8 @@
-// import React from "react";
 import "./App.css";
-// import Education from './education.jsx';
-// import Skills from './skills.jsx';
-// import Experience from './exprience.jsx';
-// import Home from './Home.jsx';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-       
+    <>   
     <div className="container">
       <div id="side-bar">
         <div id="pic"></div>
@@ -44,24 +37,6 @@ function App() {
         <span className="skill"></span>
         <span id="skill-six"></span>
         <span className="cir" id = "cir5"></span>
-
-
-        {/* <div id="navbar">
-          <ul>
-            <li>
-              <a href="App.jsx">About me</a>
-            </li>
-            <li>
-              <a href="education.jsx">Education</a>
-            </li>
-            <li>
-              <a href="skills.jsx">Skills</a>
-            </li>
-            <li>
-              <a href="experience.jsx">Experience</a>
-            </li>
-          </ul>
-        </div> */}
       </div>
 
       <div id="about">
